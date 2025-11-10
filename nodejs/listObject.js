@@ -5,7 +5,7 @@ var s3 = new AWS.S3({
 });
 
 var params = {
-    Bucket: 'rgirodon-first-bucket'
+    Bucket: 'clementulrich-second-bucket'
 };
 s3.listObjects(params, function(err, data) {
     if (err) {
